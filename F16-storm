@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملف الشخصي - فايز فلمبان</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #004080, #0099cc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            position: relative;
+        }
+
+        header img {
+            width: 100px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            animation: wave 2s infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% {
+                transform: rotate(0);
+            }
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 5px 0;
+        }
+
+        .content {
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_Saudi_Arabia.svg" alt="علم السعودية">
+    <h1>فايز فلمبان</h1>
+    <p>المعروف بـ "Faystorm"، هو باحث أمني سعودي طموح</p>
+    <p>العمر: 15 سنة</p>
+</header>
+
+<section class="content">
+    <h2>الخبرات العملية</h2>
+    <ul>
+        <li>اختبارات اختراق: أجرى اختبارات اختراق لعدد من التطبيقات والمنصات الإلكترونية واكتشف ثغرات أمنية هامة.</li>
+        <li>البحث عن الثغرات الأمنية: اكتشف وأبلغ عن ثغرات أمنية في تطبيقات وأجهزة متعددة.</li>
+    </ul>
+
+    <h2>الشهادات المهنية</h2>
+    <ul>
+        <li>شهادة الأمن السيبراني من منصة دروب.</li>
+        <li>شهادة لإتمام تخصص الأمن السيبراني من منصة إدراك: مساقات التخصص تشمل تقنيات الهجوم والاختراق السيبراني، أساسيات في الأمن السيبراني، مقدمة في الأمن السيبراني، حماية الأنظمة من الاختراقات، مجالات العمل والمسار الوظيفي في الأمن السيبراني.</li>
+        <li>شهادة إتمام Command-line 106 مستوى متقدم من منصة سطر.</li>
+        <li>شهادة إتمام أمن المعلومات من منصة دروب.</li>
+        <li>شهادة إتمام العنصر البشري في الأمن السيبراني من منصة دروب.</li>
+        <li>شهادة إتمام الأمن السيبراني والتقنية من منصة دروب.</li>
+        <li>شهادة إتمام الأمن السيبراني مابين التحديات والفرص من منصة دروب.</li>
+    </ul>
+
+    <h2>اللغات</h2>
+    <ul>
+        <li>العربية</li>
+        <li>الإنجليزية (مستوى A2-B1)</li>
+    </ul>
+
+    <div class="social-links">
+        <h2>للتواصل:</h2>
+        <p>
+            <a href="https://twitter.com/f16_storm" target="_blank">تويتر: @f16_storm</a>
+            <a href="https://instagram.com/4_fes" target="_blank">إنستجرام: @4_fes</a>
+            <a href="https://snapchat.com/add/b6z.2" target="_blank">سناب شات: @b6z.2</a>
+            <a href="mailto:boboosjahody@gmail.com" target="_blank">البريد الإلكتروني: boboosjahody@gmail.com</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>فايز فلمبان يسعى من خلال مشاريعه ومحتواه التعليمي إلى تمكين الشباب السعودي في مجال الأمن السيبراني والمساهمة في تطوير هذا المجال في المملكة.</p>
+    <p>جميع الحقوق محفوظة © 2024 | تصميم بواسطة فايز فلمبان</p>
+</footer>
+
+</body>
+</html>
+
